@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VakkenOefening.Views.OverzichtVakkenStack"
+             Title="OverzichtVakkenStack">
+    <ScrollView Orientation="Both" HorizontalScrollBarVisibility="Always" BackgroundColor="Black">
+        <HorizontalStackLayout>
+            <Label Text="C#" 
+                   FontFamily="TitelFont" 
+                   BackgroundColor="Black" 
+                   TextColor="White"
+                   HeightRequest="200"
+                   Margin="10"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <ImageButton x:Name="CSKnop" 
+                Source="CS.jpg" 
+                Clicked="CSPage_Clicked" 
+                MaximumHeightRequest="200" 
+                MaximumWidthRequest="200"
+                Aspect="AspectFit"
+                Margin="5"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                BackgroundColor="Black"/>
+            <Label Text="JS"
+                   FontFamily="TitelFont" 
+                   BackgroundColor="Black" 
+                   TextColor="White"
+                   HeightRequest="200"
+                   Margin="10"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <ImageButton x:Name="JSKnop" 
+                Source="JS.png" 
+                Clicked="JSPage_Clicked" 
+                MaximumHeightRequest="200" 
+                MaximumWidthRequest="200"
+                Aspect="AspectFit"
+                Margin="5"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                BackgroundColor="Black"/>
+            <Label Text="Bootstrap"
+                   FontFamily="TitelFont" 
+                   BackgroundColor="Black" 
+                   TextColor="White"
+                   HeightRequest="200"
+                   Margin="10"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <ImageButton x:Name="BootstrapKnop" 
+                Source="bootstrap.jpg" 
+                Clicked="BootstrapPage_Clicked" 
+                MaximumHeightRequest="200" 
+                MaximumWidthRequest="200"
+                Aspect="AspectFit"
+                Margin="5"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                BackgroundColor="Black"/>
+            <Label Text="React"
+                   FontFamily="TitelFont" 
+                   BackgroundColor="Black" 
+                   TextColor="White"
+                   HeightRequest="200"
+                   Margin="10"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <ImageButton x:Name="ReactKnop" 
+                Source="React.png" 
+                Clicked="ReactPage_Clicked" 
+                MaximumHeightRequest="200" 
+                MaximumWidthRequest="200"
+                Aspect="AspectFit"
+                Margin="5"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                BackgroundColor="Black"/>
+
+            <Label Text="Angular"
+                   FontFamily="TitelFont" 
+                   BackgroundColor="Black" 
+                   TextColor="White"
+                   HeightRequest="200"
+                   Margin="10"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <ImageButton x:Name="AngularKnop" 
+                Source="Angular.jpg" 
+                Clicked="AngularPage_Clicked" 
+                MaximumHeightRequest="200" 
+                MaximumWidthRequest="200"
+                Margin="5"
+                Aspect="AspectFit"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                BackgroundColor="Black"/>
+
+
+        </HorizontalStackLayout>
+    </ScrollView>
+</ContentPage>

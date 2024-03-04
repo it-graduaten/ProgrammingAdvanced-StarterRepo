@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VakkenOefening.Views.OverzichtVakkenFlex"
+             Title="OverzichtVakkenFlex">
+    <ScrollView BackgroundColor="Black">
+        <FlexLayout Wrap="Wrap" AlignItems="Center" AlignContent="SpaceEvenly">
+
+            <VerticalStackLayout>
+                <ImageButton x:Name="CSKnop" 
+                         Source="CS.jpg" 
+                         Clicked="CSPage_Clicked"/>
+                <Label Text="C#" 
+                   Style="{StaticResource MyLabelStyle}" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <ImageButton x:Name="JSKnop" 
+                         Source="JS.png" 
+                         Clicked="JSPage_Clicked" />
+                <Label Text="JS"
+                   Style="{StaticResource MyLabelStyle}" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <ImageButton x:Name="BootstrapKnop" 
+                         Source="bootstrap.jpg" 
+                         Clicked="BootstrapPage_Clicked"/>
+                <Label Text="Bootstrap"
+                   Style="{StaticResource MyLabelStyle}" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <ImageButton x:Name="ReactKnop" 
+                         Source="React.png" 
+                         Clicked="ReactPage_Clicked"/>
+                <Label Text="React"
+                   Style="{StaticResource MyLabelStyle}" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <ImageButton x:Name="AngularKnop" 
+                         Source="Angular.jpg" 
+                         Clicked="AngularPage_Clicked"/>
+                <Label Text="Angular"
+                   Style="{StaticResource MyLabelStyle}" />
+            </VerticalStackLayout>
+
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>
